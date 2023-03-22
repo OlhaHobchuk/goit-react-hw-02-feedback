@@ -1,0 +1,21 @@
+.buttonList {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-around;
+}
+.feedbackButton {
+  width: 80px;
+  background-color: cornflowerblue;
+  color: black;
+  outline: none;
+  border-radius: 16px;
+  border: 2px solid cornflowerblue;
+  cursor: pointer;
+}
+
+.feedbackButton:hover {
+  background-color: blueviolet;
+  border: 2px solid blueviolet;
+}
